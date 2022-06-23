@@ -1,2 +1,2 @@
-# Farm-cia
+# Farmacia
 Site de uma farmárcia de bairro. 
