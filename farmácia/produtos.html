@@ -16,7 +16,7 @@
 
 <body>
     <header>
-        <div id="container-header">
+        <div id="container-header" >
             <figure>
                 <a href="index.html"><img src="imagens/logo.svg" alt=""></a>
             </figure>
@@ -24,16 +24,44 @@
             <a id="search" href="#"> <span class="material-symbols-outlined">search</span></a>
 
         <ul>
-            <li><a href="produtos.html">Produtos</a></li>
+            <li><a href="produtos.html">Ofertas</a></li>
             <li><a href="localizacao.html">Localização</a></li>
             <li id="li-contato"><a href="contato.html">Entre em contato</a></li>
         </ul>
         </div>
 
+        <div id="mobile-container">
+            <div class="topnav">
+                <a href="index.html" class="active"><img src="imagens/logo.svg" alt=""></a>
+                <div id="nav">
+                    <a href="produtos.html">Produtos</a>
+                    <a href="localizacao.html">Localização</a>
+                    <a href="contato.html">Entre em contato</a>
+                </div>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <span class="material-symbols-outlined">
+                        menu
+                    </span>
+                </a>
+            </div>
+        </div>
+
+
     </header>
     <main>
-        <section id="cosmeticos">
-            <h1>cosméticos</h1>
+        <a href="#" class="whats"><img  class='whats'src="imagens/whatsapp-icone-1.png"></a>
+        <nav id="navegador-produtos">
+            <div id="container-links">
+                <a  class="link" href="#cosmeticos">Cosméticos</a>
+                <a  class="link" href="#suplementos">Suplementos</a>
+                <a  class="link" href="#medicamentos">Medicamentos</a>
+
+            </div>
+        </nav>
+
+
+        <section id="cosmeticos" class="HandS">
+            <h1>Cosméticos</h1>
             <span class="chroma"></span>
             <div id="container-cosmeticos">
                 <figure><img src="imagens/cosmetico.webp" alt="">
@@ -60,7 +88,7 @@
             </div>
         </section>
 
-        <section id="suplementos">
+        <section id="suplementos"  class="HandS" >
             <h1>Suplementos</h1>
             <span class="chroma"></span>
             <div id="container-suplementos">
@@ -86,7 +114,7 @@
             </div>
         </section>
 
-        <section id="medicamentos">
+        <section id="medicamentos" class="HandS">
             <h1>Medicamentos</h1>
             <span class="chroma"></span>
             <div id="container-medicamentos">
@@ -117,9 +145,14 @@
 
             </div>
         </section>
-
-
     </main>
+    <footer>
+        <div class="container-footer">
+            <p>direitos reservados a Ivan Farma</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
 </body>
 
 </html>

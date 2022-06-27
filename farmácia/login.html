@@ -6,12 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/estilo.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap" rel="stylesheet">
     <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    <link rel="stylesheet" href="css/estilo.css">
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 
 <body>
@@ -20,7 +20,7 @@
             <figure>
                 <a href="index.html"><img src="imagens/logo.svg" alt=""></a>
             </figure>
-            <input type="text" id="pesquisa" name="pesquisa">
+            <input type="text" id="pesquisa" name="pesquisa"> 
             <a id="search" href="#"><span class="material-symbols-outlined">search</span></a>
             <ul>
                 <li><a href="produtos.html">Produtos</a></li>
@@ -45,27 +45,27 @@
             </div>
         </div>
 
+   
     </header>
 
-    <main>
-
-        <div id="container-localizacao">
-            <h1> Ivan Farma
-                <br>
-                <br>
-                R. São Gonçalo do Rio das Pedras, 1109 - Vila Mara, São Paulo - SP, 08081-000
-            </h1>
-
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14636.13601833095!2d-46.419184669715!3d-23.49528465545003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce63c072b4667f%3A0x59779c1cdb0b70e3!2sIvan%20Farma%20de%20Vila%20Mara%20Drogaria!5e0!3m2!1spt-BR!2sbr!4v1655992605248!5m2!1spt-BR!2sbr"
-                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-
-
-        </div>
-
+    <main id="main-login">
+        <section id="container-login">
+            <form action="" method="post">
+                <div id="container-saudacoes">
+                    <h1>Bem vindo de volta!</h1>
+                    <p id="saudacao">Por favor efetue o login!</p>
+                </div>
+                <div id="container-dados">
+                    <span>USUÁRIO</span>
+                    <input type="text" name="email">
+                    <span>SENHA</span>
+                    <input type="password" name="password">
+                    <button type="submit">Entrar</button>
+                </div>
+            </form>
+        </section>
     </main>
+
     <script src="js/main.js"></script>
 </body>
 

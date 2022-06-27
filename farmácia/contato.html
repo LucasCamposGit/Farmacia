@@ -29,6 +29,23 @@
             </ul>
         </div>
 
+        <div id="mobile-container">
+            <div class="topnav">
+                <a href="index.html" class="active"><img src="imagens/logo.svg" alt=""></a>
+                <div id="nav">
+                    <a href="produtos.html">Produtos</a>
+                    <a href="localizacao.html">Localização</a>
+                    <a href="contato.html">Entre em contato</a>
+                </div>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <span class="material-symbols-outlined">
+                        menu
+                    </span>
+                </a>
+            </div>
+        </div>
+
+
     </header>
 
     <main>
@@ -40,19 +57,44 @@
                 <br>
                 <img src="imagens/Instagram_icon-icons.com_66804.png"> instagram: <a>@ivanfarma</a>
                 <br>
+                <img src="imagens/facebook.png">facebook: 
                 <br>
-                facebook: 
-                <br>
-                <br>
-                whatsapp: 
-                <br>
+                <img src="imagens/whatsapp-icone-1.png">whatsapp: 
                 <br>
             </p>
 
         </div>
 
+        <section id="formulario">
+        <div id="container-texto">
+            <h1>Entre em contato!</h1>
+            <p>Queremos ouvir o que você tem a dizer, por esse canal pode tirar suas dúvidas, fazer reclamações ou elogios. Atendimento em horário comercial. Para preços, por gentileza utilizar o Whatsapp acima</p>
+        </div>
+        <div id="container-form">
+            <form action="" method="post">
+                <input type="text" name="nome" id="nome" placeholder="Nome">
+                <input type="tel" name="telefone" id="telefone" placeholder="Telefone">
+                <input type="email" name="email" id="email" placeholder="E-mail">
+                <select name="assunto" id="assunto">
+                    <option value="">Selecione o assunto</option>
+                    <option value="1">Sugestões</option>
+                    <option value="2">Dúvidas</option>
+                    <option value="3">Ouvidoria</option>
+                    <option value="4">Fornecedores</option>
+                    <option value="5">Outros</option>
+                </select>
+                <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Mensagem"></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+        <footer>
+            <div class="container-footer">
+                <p>direitos reservados a Ivan Farma</p>
+            </div>
+        </footer>
     </main>
-
+    <script src="js/main.js"></script>
 </body>
 
 </html>
